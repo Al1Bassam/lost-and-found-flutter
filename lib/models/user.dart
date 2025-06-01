@@ -20,7 +20,7 @@ class User {
 
   Map<String, dynamic> toJson() {
     return {
-      'user_id': id,
+      'id': id,
       'name': name,
       'email': email,
     };
